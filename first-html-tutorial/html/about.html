@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    <meta name="author" content="Mohammed Abu-Shqear">
+    <meta name="description" content="This page contains info about the author">
+    <meta name="keywords" content="about-me">
+    <title>Who am I?</title>
+    <!-- !! <base> tag is unused since the site doesn't have a domain yet -->
+    <!-- <base href="" target=""> -->
+    <link rel="icon" type="image/x-icon" sizes="48x48" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/about.css">
+  </head>
+  <body>
+    <main aria-label="About the author">
+      <article>
+        <header>
+          <div>
+            <h2>Mohammed Abu-Shqear</h2>
+            <h3>Full-Stack Developer</h3>
+            <figure aria-label="Photo of Mohammed Abu-Shqear">
+              <!-- ? What does the loading attribute do? Simply, it controls the rendering of the image, where lazy value stops the image from loading until the user get close to it while browsing the web page, otherwise, it will render with the page normally using eager value (the default) -->
+              <img src="../resources/images/my-image-576x576.jpg" alt="photo of the author" title="Do I look good?" width="576" height="576" loading="eager" aria-describedby="author-description">
+              <figcaption>Mohammed Abu-Shqear, Full-Stack Developer</figcaption>
+            </figure>
+          </div>
+          <section id="author-description" aria-labelledby="author-heading">
+            <h3 id="author-heading">So... Who am I?</h3>
+            <p>a passionate developer with a dream to make my mark on the world! I hail from the beautiful and welcoming country of Jordan. From a young age, I’ve been fascinated by art, colors, and design—I love creating visually appealing and functional works (I even designed a game UI once!). This passion led me to Full-Stack Development, where I can combine my love for creativity with problem-solving. Plus, it helps that I don’t have to deal with too much math or stats, you know!</p>
+            <p>I’m all about doing things right and striving for the best possible outcome in everything I create. My first page (this page) is now on GitHub, and the fact the I want to update this page over and over is my sign that I'm eager to seek perfection and knowledge, despite perfection is not possible. That just the beginning, I can’t wait to see where this journey takes me. Let’s build something amazing together!</p>
+          </section>
+        </header>
+      </article>
+      <article>
+        <section aria-labelledby="author-skills">
+          <h3 id="author-skills">What do I do? You may ask...</h3>
+          <dl>
+            <!-- TODO: add the number of UI you designed in the game -->
+            <dt>UI/UX Designer</dt>
+            <dd>My project in the university was a game, and my role was the main designer, I did design the whole set of UI/UX design of the game in addition to make the promotional poster.</dd>
+            <dt>Freelance Translator</dt>
+            <dd>I stated my journey as a small comics translator, spending two years full of learning and dedication in that domain which was something I truly love, then I leaved that domain to start a freelance job <a href="https://trekmedics.org/" target="_blank">Trek Medics International</a> as a part of network of translators to translate <a href="https://trekmedics.org/beacon/">Beacon</a>.</dd>
+            <dt>Digital Painter</dt>
+            <dd>I can consider this more as a hobby, one of the first things I discovered about myself very long time ago, something opened the doors to discover my true passion. I'm planning to invest more in it and learn more to -someday- proudly call it a skill.</dd>
+            <dt>Artist/Animator (My goal!)...</dt>
+            <dd>Well, this is my next step after finishing the road of becoming a full-stack developer, its not the main focus for me even after that, but its a key to open doors I might be interested in the future.</dd>
+          </dl>
+        </section>
+        <section aria-labelledby="author-stats">
+          <div>
+            <h3 id="author-stats">Some info/stats you would know about me:</h3>
+            <!-- !! Tables are typically styled with CSS, but since this is an HTML-only project, I avoided using CSS -->
+            <!-- * Use `scope="row"` for row headings in tables to give them proper semantic meaning, just like column headings -->
+            <table border="1px solid #111">
+              <caption>My Languages</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Language</th>
+                  <th scope="col">Level</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Arabic</td>
+                  <td>Native</td>
+                </tr>
+                <tr>
+                  <td>English</td>
+                  <td>B1*</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="2">* I lack the speaking skill</td>
+                </tr>
+              </tfoot>
+            </table>
+            <table border="1px solid #111">
+              <caption>My Programming Languages</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Language</th>
+                  <th scope="col">Level</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Python</td>
+                  <td>Basic</td>
+                </tr>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>In Progress</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h3>"What shall I do?" you say...</h3>
+            <p>I'm looking for your feedback and advises, also you can <a href="https://drive.google.com/uc?export=download&id=1S1Vrtrma8Zn7Kt4AoW_LW8Om6Bf5dlzn" download>download</a> my resume to check on it mate! I also eager to hear your stories as a developer (in the <a href="index.html">home page</a>), that would be useful for someone fresh like me to see the domain from your perspective, otherwise, I hope you found joy reading all what I wrote in this simple website, and I hope you are having a good day ^^.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
