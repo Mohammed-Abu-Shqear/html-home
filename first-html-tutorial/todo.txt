@@ -1,0 +1,6 @@
+# index.html
+- [ ]  Add backend endpoint later (line 86)
+
+# about.html
+- [ ]  Recheck the semantic hierarchy.
+- [ ]  Add the number of UI you designed in the game (line 40)
